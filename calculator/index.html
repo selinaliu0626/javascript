@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="newStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="col1"></div>
+      <div class="col2">
+      <h1>Welcome</h1>
+          <button id="show" onclick="show()">Click to see the sum of numbers </button>
+   <div id ="form">
+       <label for="first">First:</label><br>
+       <input type="text" id="first" name="first"><br>
+       <label for="second">Second:</label><br>
+       <input type="text" id="second" name="second"><br><br>
+       <button class="mani" type="button" onclick="getSum()">Add</button>
+         <button class="mani" onclick="tryAgain()">Try Again</button>
+       <button class="mani" type ="button" onclick="goodbye()">Goodbye</button><br>
+       <h5 >Sum</h5>
+       <p id="sum" style="width: 8em;height:1.2em;background-color: white;margin-left:42%"></p><br>
+
+   </div>
+        <div class="reminder">
+          <p id="alert"></p>
+        </div>
+        <br>
+        <br>
+        <br>
+    <h4>This is a calculator,use it for double check</h4>
+      <div class="calculator">
+        <div class="display">0
+
+        </div>
+        <div class="keys">
+          <button class="cal key-operator" data-action="operator">+</button>
+          <button class="cal key-operator" data-action="operator">-</button>
+          <button class="cal key-operator" data-action="operator">x</button>
+          <button class="cal key-operator" data-action="operator">÷</button>
+          <button class="cal" data-action="num">7</button>
+          <button class="cal" data-action="num">8</button>
+          <button class="cal" data-action="num">9</button>
+          <button class="cal" data-action="num">4</button>
+          <button class="cal" data-action="num">5</button>
+          <button class="cal" data-action="num">6</button>
+          <button class="cal" data-action="num">1</button>
+          <button class="cal" data-action="num">2</button>
+          <button class="cal" data-action="num">3</button>
+          <button class="cal" data-action="num">0</button>
+          <button class="cal" data-action="decimal">.</button>
+          <button class="cal" data-action="operator">AC</button>
+          <button  class="key-equal" data-action="operator">=</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col3"></div>
+
+    <script src="index.js" charset="utf-8"></script>
+    <hr>
+      <footer>
+        CopyRight @ 2022 Xiaonan Liu
+      </footer>
+  </body>
+    </html>
